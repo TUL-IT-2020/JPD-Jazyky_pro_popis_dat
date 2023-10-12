@@ -1,0 +1,10 @@
+slizky:x:500:500:Lumir Slizky:/home/slizky:/bin/bash
+rychla:x:501:501:Leontyna Rychla:/home/rychla:/bin/zsh
+prvni:x:502:550:Amelie Prvni:/home/prvni:/bin/bash
+druhy:x:503:503:Tadeas Druhy:/home/druhy:/bin/zsh
+krupka:x:401:401:Ibrahim Ibn Krupka:/home/krupka:/bin/bash
+draha:x:505:505:Veronika Draha:/home/draha:/bin/bash
+rovna:x:506:550:Jitka Rovna:/home/rovna:/bin/bash
+primy:x:507:550:Dagobert Primy:/home/primy:/bin/bash
+cervena:x:508:550:Vera Jana Cervena:/home/cervena:/bin/bash
+zeleny:x:550:509:Emanuel Zeleny:/home/zeleny:/bin/zsh

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT seznam (skupina*)>
+
+<!ELEMENT skupina (jmeno,uzivatel*)>
+<!ATTLIST skupina
+    id CDATA #REQUIRED
+>
+
+<!ELEMENT jmeno (#PCDATA)>
+
+<!ELEMENT uzivatel (#PCDATA)>

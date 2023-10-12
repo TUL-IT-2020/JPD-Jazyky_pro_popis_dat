@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE knihovna SYSTEM  "knihy.dtd">
+<knihovna>
+<kniha isbn="0470114878">
+    <autor hlavni="hlavni">David Hunter</autor>
+    <autor>Jeff Rafter</autor>
+    <autor>Joe Fawcett</autor>
+    <autor>Eric van der Vlist</autor>
+    <autor>Danny Ayers</autor>
+    <nazev>Beginning XML</nazev>
+    <vydavatel>Wrox</vydavatel>
+</kniha>
+<kniha isbn="0596004206">
+    <autor>Erik Ray</autor>
+    <nazev>Learning XML</nazev>
+    <vydavatel>O'Reilly</vydavatel>
+</kniha>
+<kniha isbn="0764547593">
+    <autor>Kay Ethier</autor>
+    <autor>Alan Houser</autor>
+    <nazev>XML Weekend Crash Course</nazev>
+    <rok>2001</rok>
+</kniha>
+<kniha isbn="1590596765">
+    <autor>Sas Jacobs</autor>
+    <nazev>Beginning XML with DOM and Ajax</nazev>
+    <vydavatel>Apress</vydavatel>
+    <rok>2006</rok>
+</kniha>
+</knihovna>

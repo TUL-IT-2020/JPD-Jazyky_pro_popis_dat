@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<obrazek>
+<obdelnik id="001">
+    <barva system="rgb">4eab5f</barva>
+    <cara>0.5</cara>
+    <kotva>
+        <bod>
+            <x>12</x>
+            <y>-5</y>
+        </bod>
+    </kotva>
+    <sirka>24</sirka>
+    <vyska>19</vyska>
+</obdelnik>
+<kruh id="002">
+    <barva system="rgb">ffff55</barva>
+    <cara>1</cara>
+    <kotva>
+        <bod>
+            <x>27</x>
+            <y>33</y>
+        </bod>
+    </kotva>
+    <pruhlednost>75%</pruhlednost>
+    <polomer>7</polomer>
+</kruh>
+<usecka id="003">
+    <barva system="bw">0</barva>
+    <cara>3</cara>
+    <kotva>
+        <bod>
+            <x>-8</x>
+            <y>-8</y>
+        </bod>
+    </kotva>
+    <bod>
+        <x>41</x>
+        <y>36</y>
+    </bod>
+</usecka>
+</obrazek>
