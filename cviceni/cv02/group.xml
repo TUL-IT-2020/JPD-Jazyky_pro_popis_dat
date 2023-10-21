@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE seznam SYSTEM  "skupiny.dtd">
+
+<seznam>
+	<skupina id="0">
+		<jmeno>root</jmeno>
+		<uzivatel>root</uzivatel>
+	</skupina>
+	<skupina id="1">
+		<jmeno>bin</jmeno>
+		<uzivatel>root</uzivatel>
+		<uzivatel>bin</uzivatel>
+		<uzivatel>daemon</uzivatel>
+	</skupina>
+	<skupina id="2">
+		<jmeno>daemon</jmeno>
+		<uzivatel>root</uzivatel>
+		<uzivatel>bin</uzivatel>
+		<uzivatel>daemon</uzivatel>
+	</skupina>
+	<skupina id="3">
+		<jmeno>sys</jmeno>
+		<uzivatel>root</uzivatel>
+		<uzivatel>bin</uzivatel>
+		<uzivatel>adm</uzivatel>
+	</skupina>
+	<skupina id="4">
+		<jmeno>adm</jmeno>
+		<uzivatel>root</uzivatel>
+		<uzivatel>adm</uzivatel>
+		<uzivatel>daemon</uzivatel>
+	</skupina>
+	<skupina id="5">
+		<jmeno>tty</jmeno>
+		<uzivatel></uzivatel>
+	</skupina>
+</seznam>

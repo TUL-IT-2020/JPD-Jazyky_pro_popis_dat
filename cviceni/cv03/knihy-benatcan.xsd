@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:simpleType name="nazevType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="vydavatelType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="rokType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="autorType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="hlavni" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  
+  <xs:complexType name="knihaType">
+    <xs:sequence>
+      <xs:element type="autorType" name="autor" maxOccurs="unbounded"/>
+      <xs:element type="nazevType" name="nazev"/>
+      <xs:element type="vydavatelType" name="vydavatel" minOccurs="0"/>
+      <xs:element type="rokType" name="rok" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:int" name="isbn" use="optional"/>
+  </xs:complexType>
+  
+  <xs:complexType name="knihovnaType">
+    <xs:sequence>
+      <xs:element type="knihaType" name="kniha" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:element type="knihovnaType" name="knihovna"/>
+</xs:schema>
