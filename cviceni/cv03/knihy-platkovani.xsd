@@ -10,6 +10,7 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="nazev" type="xs:string"/>
   <xs:element name="vydavatel" type="xs:string"/>
   <xs:element name="rok" type="xs:short"/>

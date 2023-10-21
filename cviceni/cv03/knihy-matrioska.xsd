@@ -7,7 +7,7 @@
         <xs:element name="kniha" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="autor" maxOccurs="unbounded">
+              <xs:element name="autor" minOccurs="1" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">

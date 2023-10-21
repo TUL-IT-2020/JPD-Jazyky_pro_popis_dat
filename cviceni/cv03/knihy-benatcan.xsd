@@ -3,7 +3,7 @@
   
   <xs:simpleType name="nazevType">
     <xs:restriction base="xs:string"/>
-  </xs:simpleType>
+  </xs:simpleType> 
   
   <xs:simpleType name="vydavatelType">
     <xs:restriction base="xs:string"/>
