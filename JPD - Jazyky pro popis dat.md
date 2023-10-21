@@ -9,7 +9,7 @@ Testy jsou z látky probrané na přednáškách.
 1. [[prednaska01.pdf|přednáška]]
 2. [[prednaska02.pdf|přednáška]]
 3. [[prednaska03.pdf|přednáška]]
-4. [[cviceni04.pdf|přednáška]]
+4. [[prednaska04.pdf|přednáška]]
 5. [[prednaska05.pdf|přednáška]]
 6. [[prednaska06.pdf|přednáška]]
 7. [[prednaska07.pdf|přednáška]]
@@ -21,6 +21,9 @@ Testy jsou z látky probrané na přednáškách.
 ## Cvičení
 1. [[cviceni01|cvičení]]
 2. [[TUL-navazující_studium/1. semestr/JPD-Jazyky_pro_popis_dat/cviceni/cv02/cv02|cvičení]]
+3. [[cv03|cvičení]]
 
 ## Výklad
-A DTD je zkratka pro Document Type Definition.
+
+[[DTD]]
+[[Schema]]
