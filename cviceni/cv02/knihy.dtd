@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!ELEMENT knihovna (kniha*)>
-<!ELEMENT kniha (autor*, nazev, vydavatel?, rok?)>
+
+<!ELEMENT kniha (autor+, nazev, vydavatel?, rok?)>
+
 <!ATTLIST kniha isbn CDATA #REQUIRED>
 <!ATTLIST autor hlavni CDATA #IMPLIED>
 <!ELEMENT autor (#PCDATA)>
