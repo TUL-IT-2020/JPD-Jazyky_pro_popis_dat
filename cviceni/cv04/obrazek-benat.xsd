@@ -2,86 +2,92 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="obrazek" type="obrazekType">
-    <xs:unique name="id_je_unikat">
-      <xs:selector xpath="obrazekType"/>
-      <xs:field xpath="@id"/>
+    <xs:unique name="uniqueIDs">
+      <xs:selector xpath=".//obdelnik | .//kruh | .//usecka" />
+      <xs:field xpath="@id" />
     </xs:unique>
   </xs:element>
 
+  <xs:simpleType name="idType">
+    <xs:restriction base="xs:string">
+          <xs:pattern value="[0-9]{3}"/>
+        </xs:restriction>
+  </xs:simpleType>
+
   <xs:simpleType name="pruhlednostType">
     <xs:restriction base="xs:token">
-      <xs:pattern value="\d{1,2}%"/>
-      <xs:pattern value="100%"/>
+      <xs:pattern value="\d{1,2}%" />
+      <xs:pattern value="100%" />
     </xs:restriction>
   </xs:simpleType>
-  
+
   <xs:complexType name="barvaType">
     <xs:simpleContent>
       <xs:extension base="xs:string">
         <xs:attribute name="system" use="optional">
           <xs:simpleType>
             <xs:restriction base="xs:token">
-              <xs:pattern value="rgb"/>
-              <xs:pattern value="bw"/>
+              <xs:pattern value="rgb" />
+              <xs:pattern value="bw" />
             </xs:restriction>
           </xs:simpleType>
         </xs:attribute>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-  
+
   <xs:complexType name="bodType">
     <xs:sequence>
-      <xs:element type="xs:byte" name="x"/>
-      <xs:element type="xs:byte" name="y"/>
+      <xs:element type="xs:byte" name="x" />
+      <xs:element type="xs:byte" name="y" />
     </xs:sequence>
   </xs:complexType>
-  
+
   <xs:complexType name="kotvaType">
     <xs:sequence>
-      <xs:element type="bodType" name="bod"/>
+      <xs:element type="bodType" name="bod" />
     </xs:sequence>
   </xs:complexType>
-  
+
   <xs:complexType name="obdelnikType">
     <xs:all>
-      <xs:element type="barvaType" name="barva"/>
-      <xs:element type="xs:float" name="cara"/>
-      <xs:element type="kotvaType" name="kotva"/>
-      <xs:element type="xs:byte" name="sirka"/>
-      <xs:element type="xs:byte" name="vyska"/>
-      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0"/>
+      <xs:element type="barvaType" name="barva" />
+      <xs:element type="xs:float" name="cara" />
+      <xs:element type="kotvaType" name="kotva" />
+      <xs:element type="xs:byte" name="sirka" />
+      <xs:element type="xs:byte" name="vyska" />
+      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0" />
     </xs:all>
-    <xs:attribute type="xs:byte" name="id"/>
+    <xs:attribute type="idType" name="id" />
   </xs:complexType>
-  
+
   <xs:complexType name="kruhType">
     <xs:all>
-      <xs:element type="barvaType" name="barva"/>
-      <xs:element type="xs:byte" name="cara"/>
-      <xs:element type="kotvaType" name="kotva"/>
-      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0"/>
-      <xs:element type="xs:byte" name="polomer"/>
+      <xs:element type="barvaType" name="barva" />
+      <xs:element type="xs:byte" name="cara" />
+      <xs:element type="kotvaType" name="kotva" />
+      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0" />
+      <xs:element type="xs:byte" name="polomer" />
     </xs:all>
-    <xs:attribute type="xs:byte" name="id"/>
+    <xs:attribute type="idType" name="id" />
   </xs:complexType>
-  
+
   <xs:complexType name="useckaType">
     <xs:all>
-      <xs:element type="barvaType" name="barva"/>
-      <xs:element type="xs:byte" name="cara"/>
-      <xs:element type="kotvaType" name="kotva"/>
-      <xs:element type="bodType" name="bod"/>
-      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0"/>
+      <xs:element type="barvaType" name="barva" />
+      <xs:element type="xs:byte" name="cara" />
+      <xs:element type="kotvaType" name="kotva" />
+      <xs:element type="bodType" name="bod" />
+      <xs:element type="pruhlednostType" name="pruhlednost" minOccurs="0" />
     </xs:all>
-    <xs:attribute type="xs:byte" name="id"/>
+    <xs:attribute type="idType" name="id" />
   </xs:complexType>
-  
+
   <xs:complexType name="obrazekType">
     <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element type="kruhType" name="kruh"/>
-      <xs:element type="obdelnikType" name="obdelnik"/>
-      <xs:element type="useckaType" name="usecka"/>
+      <xs:element type="kruhType" name="kruh" />
+      <xs:element type="obdelnikType" name="obdelnik" />
+      <xs:element type="useckaType" name="usecka" />
     </xs:choice>
   </xs:complexType>
 
