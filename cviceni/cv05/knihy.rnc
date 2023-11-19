@@ -1,0 +1,15 @@
+# autor ma voltelny atribut hlavni s textem: "hlavni"
+# vydavatel je volitelny
+# rok je volitelny
+start = element knihovna {
+    element kniha {
+        attribute isbn { xsd:string { pattern = "[0-9]{10}" } },
+        element autor {
+            attribute hlavni { "hlavni" }?,
+            text
+        }+,
+        element nazev { text },
+        element vydavatel { text }?,
+        element rok { xsd:integer }?
+    }+
+}

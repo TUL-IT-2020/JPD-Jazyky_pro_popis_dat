@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <!--
+    autor ma voltelny atribut hlavni s textem: "hlavni"
+    vydavatel je volitelny
+    rok je volitelny
+  -->
+  <start>
+    <element name="knihovna">
+      <oneOrMore>
+        <element name="kniha">
+          <attribute name="isbn">
+            <data type="string">
+              <param name="pattern">[0-9]{10}</param>
+            </data>
+          </attribute>
+          <oneOrMore>
+            <element name="autor">
+              <optional>
+                <attribute name="hlavni">
+                  <value>hlavni</value>
+                </attribute>
+              </optional>
+              <text/>
+            </element>
+          </oneOrMore>
+          <element name="nazev">
+            <text/>
+          </element>
+          <optional>
+            <element name="vydavatel">
+              <text/>
+            </element>
+          </optional>
+          <optional>
+            <element name="rok">
+              <data type="integer"/>
+            </element>
+          </optional>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>
