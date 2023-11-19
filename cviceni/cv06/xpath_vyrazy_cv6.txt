@@ -4,7 +4,6 @@
 
 3. for $index in //kniha/autor[starts-with(., 'E')]/ancestor::* return $index/nazev | $cd/autor
 
-
 4. for $index in /knihovna/kniha/child::nazev[string-length(../vydavatel)>0] return concat($index, ": pocet autoru:",count($index/../autor))
 
 5. xmllint --xpath '//kniha[count(.//autor)>1]' knihy.xml
