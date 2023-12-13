@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+  <location>
+    <location_name>Duke Orsino's palace</location_name>
+    <location_use>
+      <act_number>act 1</act_number>
+      <act_number>scene 1</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 1</act_number>
+      <act_number>scene 4</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 2</act_number>
+      <act_number>scene 4</act_number>
+    </location_use>
+  </location>
+  <location>
+    <location_name>The sea-coast</location_name>
+    <location_use>
+      <act_number>act 1</act_number>
+      <act_number>scene 2</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 2</act_number>
+      <act_number>scene 1</act_number>
+    </location_use>
+  </location>
+  <location>
+    <location_name>Olivia's house</location_name>
+    <location_use>
+      <act_number>act 1</act_number>
+      <act_number>scene 3</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 1</act_number>
+      <act_number>scene 5</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 2</act_number>
+      <act_number>scene 3</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 3</act_number>
+      <act_number>scene 2</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 4</act_number>
+      <act_number>scene 2</act_number>
+    </location_use>
+  </location>
+  <location>
+    <location_name>A street</location_name>
+    <location_use>
+      <act_number>act 2</act_number>
+      <act_number>scene 2</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 3</act_number>
+      <act_number>scene 3</act_number>
+    </location_use>
+  </location>
+  <location>
+    <location_name>Olivia's garden</location_name>
+    <location_use>
+      <act_number>act 2</act_number>
+      <act_number>scene 5</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 3</act_number>
+      <act_number>scene 1</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 3</act_number>
+      <act_number>scene 4</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 4</act_number>
+      <act_number>scene 3</act_number>
+    </location_use>
+  </location>
+  <location>
+    <location_name>Olivia's front yard</location_name>
+    <location_use>
+      <act_number>act 4</act_number>
+      <act_number>scene 1</act_number>
+    </location_use>
+    <location_use>
+      <act_number>act 5</act_number>
+      <act_number>scene 1</act_number>
+    </location_use>
+  </location>
+</locations>
