@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <car>
+        <CarInfo vin="4FL200212345">
+            <Owner>J. P. Morgan</Owner>
+        </CarInfo>
+    </car>
+    <car>
+        <CarInfo vin="3CL200212345">
+            <Owner>J.P. Thompson</Owner>
+        </CarInfo>
+    </car>
+    <carSpecifics vin="4FL200212345">
+        <CarMake xrefId="XREF12345">
+            <Color>Red</Color>
+            <Style>Sedan</Style>
+        </CarMake>
+    </carSpecifics>
+    <carSpecifics vin="3CL200212345">
+        <CarMake xrefId="XREF67890">
+            <Color>Red</Color>
+            <Style>Sedan</Style>
+        </CarMake>
+    </carSpecifics>
+    <CarXref xrefId="XREF12345">
+        <Incident>Friday Crash</Incident>
+    </CarXref>
+    <CarXref xrefId="XREF67890">
+        <Incident>Sat Crash</Incident>
+    </CarXref>
+</root>

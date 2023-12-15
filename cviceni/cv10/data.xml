@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<uzivatele>
+<osoba id="usr8">
+ <jmeno>mail</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>sluzba</kategorie>
+</osoba>
+<osoba id="usr10">
+ <jmeno>uucp</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>sluzba</kategorie>
+</osoba>
+<osoba id="usr11">
+ <jmeno>operator</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>osoba</kategorie>
+</osoba>
+<osoba id="usr12">
+ <jmeno>games</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>ostatni</kategorie>
+</osoba>
+<osoba id="usr13">
+ <jmeno>gopher</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>sluzba</kategorie>
+</osoba>
+<osoba id="usr14">
+ <jmeno>ftp</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>sluzba</kategorie>
+</osoba>
+<osoba id="usr99">
+ <jmeno>nobody</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>osoba</kategorie>
+</osoba>
+<osoba id="usr81">
+ <jmeno>dbus</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>ostatni</kategorie>
+</osoba>
+<osoba id="usr69">
+ <jmeno>vcsa</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>ostatni</kategorie>
+</osoba>
+<osoba id="usr37">
+ <jmeno>rpm</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>ostatni</kategorie>
+</osoba>
+<osoba id="usr68">
+ <jmeno>haldaemon</jmeno>
+ <shell>/sbin/nologin</shell>
+ <kategorie>sluzba</kategorie>
+</osoba>
+</uzivatele>
