@@ -1,0 +1,70 @@
+<prehled>
+<prodejci>
+   <firma id="vlk">
+      <nazev>Autosalon Vlk</nazev>
+      <adresa>
+         <ulice>U pivovaru 19</ulice>
+         <mesto>Plzeň</mesto>
+      </adresa>
+      <znacka>skoda</znacka>
+      <znacka>vw</znacka>
+   </firma>
+   <firma id="tichy">
+      <nazev>Tichý Cars</nazev>
+      <adresa>
+         <ulice>Pod lesem 45</ulice>
+         <mesto>Praha</mesto>
+      </adresa>
+      <znacka>vw</znacka>
+   </firma>
+   <firma id="beranek">
+      <nazev>Beránek a syn</nazev>
+      <adresa>
+         <ulice>Podolská 28</ulice>
+         <mesto>Praha</mesto>
+      </adresa>
+      <znacka>skoda</znacka>
+      <znacka>vw</znacka>
+   </firma>
+   <firma id="mysak">
+      <nazev>Autosalon Myšák</nazev>
+      <adresa>
+         <ulice>Široká 37</ulice>
+         <mesto>Praha</mesto>
+      </adresa>
+      <znacka>skoda</znacka>
+   </firma>
+   <firma id="liska">
+      <nazev>Liška a Sýr</nazev>
+      <adresa>
+         <ulice>Dlouhá 49</ulice>
+         <mesto>Plzeň</mesto>
+      </adresa>
+      <znacka>skoda</znacka>
+   </firma>
+</prodejci>
+
+<vozy>
+   <model vyrobce="skoda">
+      <nazev>Enyaq</nazev>
+   </model>
+   <model vyrobce="skoda">
+      <nazev>Superb</nazev>
+   </model>
+   <model vyrobce="skoda">
+      <nazev>Octavia</nazev>
+   </model>
+   <model vyrobce="skoda">
+      <nazev>Fabia</nazev>
+   </model>
+   <model vyrobce="vw">
+      <nazev>Touareg</nazev>
+   </model>
+   <model vyrobce="vw">
+      <nazev>Passat</nazev>
+   </model>
+   <model vyrobce="vw">
+      <nazev>Golf</nazev>
+   </model>
+</vozy>
+</prehled>
