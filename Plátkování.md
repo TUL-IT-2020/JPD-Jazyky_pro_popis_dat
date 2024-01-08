@@ -1,3 +1,4 @@
+#xml
 # Plátkování
 Všechny prvky a atributy se definují na stejné (nejvyšší) úrovni. Odkazují se na sebe pomocí ref=“jméno“. Definované prvky/atributy lze používat opakovaně. Koncepce blízká DTD. Obsah prvku se nemůže lišit podle kontextu (rodiče).
 

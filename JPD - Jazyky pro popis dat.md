@@ -1,11 +1,15 @@
 # JPD - Jazyky pro popis dat
 [[jpd-info.pdf]]
 
-https://www.kosek.cz/clanky/xml/index.html
-https://www.w3schools.com/xml/xml_dtd_intro.asp
+## Literatura
+- Aaron Skonnard, Martin Gudgin: XML pohotová referenční příručka Grada, 2005
+- https://www.kosek.cz/clanky/xml/index.html
+- https://www.w3schools.com/xml/xml_dtd_intro.asp
 
 ## Zkouška
 Soubory stáhnete z jeho webu (da link), můžete to dělat na vlastních pc. Až to budete mít hotové, Satrapa se podívá na výstup, na kód a řekne "dobře".
+
+[[zkouska]]
 ## Přednášky
 Testy jsou z látky probrané na přednáškách.
 
@@ -35,5 +39,16 @@ Testy jsou z látky probrané na přednáškách.
 
 ## Výklad
 
-[[DTD]]
-[[Schema]]
+Datové soubory:
+- binární
+- textové
+	- pevná struktura
+	- volná struktura
+
+Textový jazyk pro popis dat, kterému se budeme věnovat:
+- [[XML]]
+	- [[DTD]]
+	- [[Jmenné prostory]]
+	- [[Schema]]
+	- [[Relax NG]]
+	- [[XPath]]

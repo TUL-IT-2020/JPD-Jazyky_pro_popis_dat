@@ -1,3 +1,4 @@
+#xml
 # Slepý Benátčan
 Předem se (na globální úrovni) definují typy. Prvky a atributy se definují lokálně (jako v matrjošce), ovšem triviálně s využitím připravených typů. Nejflexibilnější, typy lze používat opakovaně, ale schéma je delší. Vhodné pro složité jazyky.
 

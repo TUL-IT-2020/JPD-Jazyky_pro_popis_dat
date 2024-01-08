@@ -1,3 +1,4 @@
+#xml 
 # Matrjoška
 Definice prvků se do sebe ve schématu vkládají přímo, stejně jako prvky v dokumentu. Na nejvyšší úrovni vždy jen jeden prvek. Krátké a kompaktní schéma. Pro složitější jazyky nepřehledné. Nelze opakovaně využívat dílčí definice.
 
