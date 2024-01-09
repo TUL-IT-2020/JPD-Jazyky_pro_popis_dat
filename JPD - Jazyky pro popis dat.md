@@ -12,7 +12,8 @@
 ## Zkouška
 Soubory stáhnete z jeho webu (da link), můžete to dělat na vlastních pc. Až to budete mít hotové, Satrapa se podívá na výstup, na kód a řekne "dobře".
 
-[[zkouska]]
+- [[zkouska_2023]]
+- [[zkouska_2024]]
 ## Přednášky
 Testy jsou z látky probrané na přednáškách.
 
