@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mesta>
+
+<mesto id="liberec">
+    <nazev>Liberec</nazev>
+    <kraj>Liberecký</kraj>
+    <obyvatel>102005</obyvatel>
+</mesto>
+
+<mesto id="frydlant">
+    <nazev>Frýdlant</nazev>
+    <kraj>Liberecký</kraj>
+    <obyvatel>7583</obyvatel>
+</mesto>
+
+<mesto id="jablonec">
+    <nazev>Jablonec nad Nisou</nazev>
+    <kraj>Liberecký</kraj>
+    <obyvatel>45206</obyvatel>
+</mesto>
+
+<mesto id="lipa">
+    <nazev>Česká Lípa</nazev>
+    <kraj>Liberecký</kraj>
+    <obyvatel>37168</obyvatel>
+</mesto>
+
+<mesto id="chrastava">
+    <nazev>Chrastava</nazev>
+    <kraj>Liberecký</kraj>
+    <obyvatel>6243</obyvatel>
+</mesto>
+
+<mesto id="hradec">
+    <nazev>Hradec Králové</nazev>
+    <kraj>Královéhradecký</kraj>
+    <obyvatel>93490</obyvatel>
+</mesto>
+
+<mesto id="jicin">
+    <nazev>Jičín</nazev>
+    <kraj>Královéhradecký</kraj>
+    <obyvatel>16576</obyvatel>
+</mesto>
+
+<mesto id="trutnov">
+    <nazev>Trutnov</nazev>
+    <kraj>Královéhradecký</kraj>
+    <obyvatel>30957</obyvatel>
+</mesto>
+
+<mesto id="nachod">
+    <nazev>Náchod</nazev>
+    <kraj>Královéhradecký</kraj>
+    <obyvatel>20665</obyvatel>
+</mesto>
+
+<mesto id="rychnov">
+    <nazev>Rychnov nad Kněžnou</nazev>
+    <kraj>Královéhradecký</kraj>
+    <obyvatel>11325</obyvatel>
+</mesto>
+
+</mesta>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<adresar>
+<nazev>storm-4</nazev>
+
+  <adresar>
+  <nazev>serif</nazev>
+
+    <adresar>
+    <nazev>Serapion</nazev>
+    <soubor><nazev>SerapionPro.otf</nazev><velikost>79528</velikost></soubor>
+    <soubor><nazev>SerapionProItalic.otf</nazev><velikost>84480</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Regent</nazev>
+    <soubor><nazev>RegentPro.otf</nazev><velikost>80628</velikost></soubor>
+    <soubor><nazev>RegentPro-Italic.otf</nazev><velikost>90112</velikost></soubor>
+    <soubor><nazev>RegentPro-Bold.otf</nazev><velikost>77012</velikost></soubor>
+    <soubor><nazev>RegentPro-BoldItalic.otf</nazev><velikost>85812</velikost></soubor>
+    </adresar>
+
+  </adresar>
+
+  <adresar>
+  <nazev>sans-serif</nazev>
+
+    <adresar>
+    <nazev>Zeppelin</nazev>
+    <soubor><nazev>Zeppelin42.otf</nazev><velikost>51628</velikost></soubor>
+    <soubor><nazev>Zeppelin42Italic.otf</nazev><velikost>57764</velikost></soubor>
+    <soubor><nazev>Zeppelin42Bold.otf</nazev><velikost>55112</velikost></soubor>
+    <soubor><nazev>Zeppelin42BoldItalic.otf</nazev><velikost>58076</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Vida</nazev>
+    <soubor><nazev>Vida32Pro-BoldItalic.otf</nazev><velikost>103156</velikost></soubor>
+    <soubor><nazev>Vida32Pro-Bold.otf</nazev><velikost>95028</velikost></soubor>
+    <soubor><nazev>Vida32Pro-Italic.otf</nazev><velikost>107076</velikost></soubor>
+    <soubor><nazev>Vida32Pro.otf</nazev><velikost>97024</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Sebastian</nazev>
+    <soubor><nazev>SebastianTextProItalic.otf</nazev><velikost>85960</velikost></soubor>
+    <soubor><nazev>SebastianTextPro.otf</nazev><velikost>67796</velikost></soubor>
+    </adresar>
+
+  </adresar>
+
+  <adresar>
+  <nazev>akcidencni</nazev>
+
+    <adresar>
+    <nazev>Cobra</nazev>
+    <soubor><nazev>CobraBold.otf</nazev><velikost>32780</velikost></soubor>
+    <soubor><nazev>Cobra.otf</nazev><velikost>35912</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Alcoholica</nazev>
+    <soubor><nazev>AlcoholicaBold.otf</nazev><velikost>37164</velikost></soubor>
+    <soubor><nazev>AlcoholicaItalic.otf</nazev><velikost>40920</velikost></soubor>
+    <soubor><nazev>Alcoholica.otf</nazev><velikost>36916</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Kompressor</nazev>
+    <soubor><nazev>KompressorBoldItalic.otf</nazev></soubor>
+    <soubor><nazev>KompressorBold.otf</nazev></soubor>
+    <soubor><nazev>KompressorItalic.otf</nazev></soubor>
+    <soubor><nazev>Kompressor.otf</nazev></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Aichel</nazev>
+    <soubor><nazev>Aichel.otf</nazev><velikost>51784</velikost></soubor>
+    </adresar>
+
+    <adresar>
+    <nazev>Clichee</nazev>
+    <soubor><nazev>ClicheeBoldItalic.otf</nazev><velikost>58748</velikost></soubor>
+    <soubor><nazev>ClicheeBold.otf</nazev><velikost>53760</velikost></soubor>
+    <soubor><nazev>ClicheeItalic.otf</nazev><velikost>54112</velikost></soubor>
+    <soubor><nazev>Clichee.otf</nazev><velikost>47216</velikost></soubor>
+    </adresar>
+
+  </adresar>
+
+</adresar>

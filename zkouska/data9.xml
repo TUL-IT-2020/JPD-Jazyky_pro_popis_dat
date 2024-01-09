@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publikace>
+
+<polozka id="ling" typ="sbornik">
+    <autor>Břehová Eva a kol.</autor>
+    <nazev>Moderní lingvistika</nazev>
+    <rok>2011</rok>
+</polozka>
+
+<polozka id="povlt" typ="sbornik">
+    <autor>Cejn Adam a kol.</autor>
+    <nazev>Jazyky Povltaví</nazev>
+    <rok>2012</rok>
+</polozka>
+
+<polozka id="vltobr" typ="clanek">
+    <autor>Zábranská Jitka</autor>
+    <nazev>Vltava v literatuře národního obrození</nazev>
+    <in>povlt</in>
+</polozka>
+
+<polozka id="prevoz" typ="clanek">
+    <autor>Průchová Anna</autor>
+    <nazev>Vliv převoznictví na jazyk</nazev>
+    <in>povlt</in>
+</polozka>
+
+<polozka id="lode" typ="clanek">
+    <autor>Krátký Vilém</autor>
+    <nazev>Názvosloví vltavských lodí</nazev>
+    <in>povlt</in>
+</polozka>
+
+<polozka id="prezdivky" typ="clanek">
+    <autor>Král Stanislav</autor>
+    <nazev>Přezdívky a Internet</nazev>
+    <in>ling</in>
+</polozka>
+
+<polozka id="germanismy" typ="clanek">
+    <autor>Hrabětová Eliška</autor>
+    <nazev>Germanismy v češtině</nazev>
+    <in>ling</in>
+</polozka>
+
+<polozka id="korpus" typ="clanek">
+    <autor>Pišl Jindřich</autor>
+    <nazev>Národní jazykový korpus</nazev>
+    <in>ling</in>
+</polozka>
+
+<polozka id="statjaz" typ="clanek">
+    <autor>Světlá Eva</autor>
+    <nazev>Statistické hodnocení jazyka</nazev>
+    <in>ling</in>
+</polozka>
+
+</publikace>

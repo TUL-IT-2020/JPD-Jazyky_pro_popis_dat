@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<obrazek>
+<grprvek id="p001" typ="obdelnik">
+    <pozice>
+        <x>10</x>
+        <y>5</y>
+    </pozice>
+    <strana-a>15</strana-a>
+    <strana-b>6</strana-b>
+</grprvek>
+
+<skupina id="s001">
+    <grprvek id="p002" typ="obdelnik">
+        <pozice>
+            <x>-3</x>
+            <y>7</y>
+        </pozice>
+        <strana-a>5</strana-a>
+        <strana-b>5</strana-b>
+    </grprvek>
+
+    <grprvek id="p003" typ="kruznice">
+        <pozice>
+            <x>-1</x>
+            <y>10</y>
+        </pozice>
+        <polomer>2</polomer>
+    </grprvek>
+</skupina>
+
+<skupina id="s002">
+    <grprvek id="p004" typ="obdelnik">
+        <pozice>
+            <x>5</x>
+            <y>-2</y>
+        </pozice>
+        <strana-a>3</strana-a>
+        <strana-b>2</strana-b>
+    </grprvek>
+
+    <grprvek id="p005" typ="obdelnik">
+        <pozice>
+            <x>10</x>
+            <y>5</y>
+        </pozice>
+        <strana-a>7</strana-a>
+        <strana-b>3</strana-b>
+    </grprvek>
+
+    <grprvek id="p006" typ="kruznice">
+        <pozice>
+            <x>3</x>
+            <y>8</y>
+        </pozice>
+        <polomer>1</polomer>
+    </grprvek>
+</skupina>
+
+</obrazek>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sit>
+
+<katedra id="nti">
+    <nazev>NTI</nazev>
+    <domena>nti.tul.cz</domena>
+
+    <host typ="pc">
+        <jmeno>javor</jmeno>
+        <podsit>a</podsit>
+        <ip>15</ip>
+    </host>
+
+    <host typ="tiskarna">
+        <jmeno>g-berg</jmeno>
+        <podsit>a</podsit>
+        <ip>130</ip>
+    </host>
+
+    <host typ="pc">
+        <jmeno>kokos</jmeno>
+        <podsit>b</podsit>
+        <ip>52</ip>
+    </host>
+</katedra>
+
+<katedra id="ite">
+    <nazev>ITE</nazev>
+    <domena>ite.tul.cz</domena>
+
+    <host typ="pc">
+        <jmeno>platan</jmeno>
+        <podsit>b</podsit>
+        <ip>203</ip>
+    </host>
+
+    <host typ="pc">
+        <jmeno>smrk</jmeno>
+        <podsit>a</podsit>
+        <ip>89</ip>
+    </host>
+
+    <host typ="tiskarna">
+        <jmeno>hplj</jmeno>
+        <podsit>b</podsit>
+        <ip>157</ip>
+    </host>
+</katedra>
+
+<podsit id="a">
+    <nazev>Budova A</nazev>
+    <ip>147.230.72</ip>
+</podsit>
+
+<podsit id="b">
+    <nazev>Budova B</nazev>
+    <ip>147.230.80</ip>
+</podsit>
+
+</sit>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obrazek>
+
+<bod id="A">
+    <x>10</x>
+    <y>5</y>
+</bod>
+
+<bod id="B">
+    <x>-3</x>
+    <y>4</y>
+</bod>
+
+<bod id="C">
+    <x>8</x>
+    <y>8</y>
+</bod>
+
+<bod id="D">
+    <x>6</x>
+    <y>-2</y>
+</bod>
+
+<bod id="E">
+    <x>1</x>
+    <y>0</y>
+</bod>
+
+<bod id="F">
+    <x>5</x>
+    <y>-1</y>
+</bod>
+
+<bod id="G">
+    <x>-2</x>
+    <y>-5</y>
+</bod>
+
+<bod id="H">
+    <x>7</x>
+    <y>3</y>
+</bod>
+
+<usecka id="U1">
+    <bod>A</bod>
+    <bod>C</bod>
+</usecka>
+
+<usecka id="U2">
+    <bod>E</bod>
+    <bod>C</bod>
+</usecka>
+
+<usecka id="U3">
+    <bod>H</bod>
+    <bod>A</bod>
+</usecka>
+
+<usecka id="U4">
+    <bod>A</bod>
+    <bod>G</bod>
+</usecka>
+
+<usecka id="U5">
+    <bod>B</bod>
+    <bod>D</bod>
+</usecka>
+
+<usecka id="U6">
+    <bod>G</bod>
+    <bod>H</bod>
+</usecka>
+
+</obrazek>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<dokument>
+
+<sekce>
+<nadpis>Příkaz ls</nadpis>
+<pojem rodic="příkaz">ls</pojem>
+
+<odstavec>Příkaz ls vypíše nejprve své souborové
+parametry<pojem>parametr</pojem>, které nejsou  adresáři<pojem>adresář</pojem>
+a potom pro každý adresář z parametru vypíše všechny v něm obsažené
+soubory<pojem>soubor</pojem>, které lze vypsat.</odstavec>
+
+<obrazek>
+  <soubor typ="gif">vystup-ls.gif</soubor>
+  <nazev>Výstup příkazu ls</nazev>
+</obrazek>
+
+<obrazek>
+  <soubor typ="pdf">ls-rekurze.pdf</soubor>
+  <nazev>Rekurzivní ls</nazev>
+</obrazek>
+
+</sekce>
+
+<sekce>
+<nadpis>Příkaz rm</nadpis>
+<pojem rodic="příkaz">rm</pojem>
+
+<odstavec>Příkaz rm ruší (maže) zadané soubory<pojem>soubor</pojem>. Implicitně
+neruší adresáře<pojem>adresář</pojem>, ale pokud je použita volba -r nebo -R,
+je adresář vymazán spolu se svým obsahem.</odstavec>
+</sekce>
+
+<sekce>
+<nadpis>Příkaz ln</nadpis>
+<pojem rodic="příkaz">ln</pojem>
+
+<odstavec>ln vytváří odkazy<pojem>odkaz</pojem> na
+soubory<pojem>soubor</pojem>. Implicitně vytváří pevné odkazy<pojem
+rodic="odkaz">pevný</pojem>; s volbou -s vytváří symbolické odkazy<pojem
+rodic="odkaz">symbolický</pojem>.</odstavec>
+
+<obrazek>
+  <soubor typ="pdf">ln.pdf</soubor>
+  <nazev>Pevné a symbolické odkazy</nazev>
+</obrazek>
+
+</sekce>
+
+</dokument>

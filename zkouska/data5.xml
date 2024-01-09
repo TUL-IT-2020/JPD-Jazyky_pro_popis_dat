@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<data>
+
+<mistnosti>
+    <mistnost id="a001">
+        <nazev>Kancelář A001</nazev>
+        <budova>A</budova>
+        <patro>1</patro>
+        <mistnost>015</mistnost>
+    </mistnost>
+
+    <mistnost id="a4">
+        <nazev>Učebna A4</nazev>
+        <budova>A</budova>
+        <patro>2</patro>
+        <mistnost>015</mistnost>
+    </mistnost>
+
+    <mistnost id="a003">
+        <nazev>Kancelář A003</nazev>
+        <budova>A</budova>
+        <patro>1</patro>
+        <mistnost>027</mistnost>
+    </mistnost>
+
+    <mistnost id="a002">
+        <nazev>Kancelář A002</nazev>
+        <budova>A</budova>
+        <patro>1</patro>
+        <mistnost>035</mistnost>
+    </mistnost>
+</mistnosti>
+
+<zamestnanci>
+
+    <osoba id="o001">
+        <jmeno>Adam</jmeno>
+        <prijmeni>Libový</prijmeni>
+        <telefon>1234</telefon>
+        <kancelar>a001</kancelar>
+    </osoba>
+
+    <osoba id="o002">
+        <jmeno>Anna</jmeno>
+        <prijmeni>Veselá</prijmeni>
+        <telefon>3456</telefon>
+        <kancelar>a002</kancelar>
+    </osoba>
+
+    <osoba id="o003">
+        <jmeno>Eva</jmeno>
+        <prijmeni>Zelená</prijmeni>
+        <telefon>2345</telefon>
+        <kancelar>a001</kancelar>
+    </osoba>
+
+    <osoba id="o004">
+        <jmeno>Jiří</jmeno>
+        <prijmeni>Strom</prijmeni>
+        <telefon>4567</telefon>
+        <kancelar>a001</kancelar>
+    </osoba>
+
+    <osoba id="o005">
+        <jmeno>Věra</jmeno>
+        <prijmeni>Tašková</prijmeni>
+        <telefon>5678</telefon>
+        <kancelar>a002</kancelar>
+    </osoba>
+
+    <osoba id="o006">
+        <jmeno>Jan</jmeno>
+        <prijmeni>Paže</prijmeni>
+        <telefon>7890</telefon>
+        <kancelar>a003</kancelar>
+    </osoba>
+
+</zamestnanci>
+
+</data>

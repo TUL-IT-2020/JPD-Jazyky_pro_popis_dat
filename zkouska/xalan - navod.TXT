@@ -1,0 +1,3 @@
+1) Rozbalit vsechny .jar do stejne slozky
+2) Do stejne slozky zkopirovat datovy a predpisovy soubor
+3) V prikazove radce se presunout do te slozky a pak zadat prikaz java -jar xalan.jar -in data.xml -xsl predpis.xsl -out vystup.html
